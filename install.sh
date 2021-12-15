@@ -23,11 +23,20 @@ sudo apt-get install git -y
 
 cd /home/$USER/.local/share
 
-git clone https://github.com/thisiscleverson/.file-organizer.git
+git clone https://github.com/thisiscleverson/file-organizer.git
 
-cd .file-organizer
+cd file-organizer
 cd dist
-cp File_Organizer /home/cleversom/.config/autostart
+mv File_Organizer File_Organizer.desktop
+cp File_Organizer.desktop /home/cleversom/.config/autostart
+
+cd /home/$USER/.local/share/file-organizer/build
+sudo cp File_Organizer.service /etc/systemd/system/
+
+systemd daemon-reload
+
+
+
 
 
 
