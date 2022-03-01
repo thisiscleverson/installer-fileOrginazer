@@ -5,7 +5,7 @@
 
 sudo rm /var/lib/dpkg/lock-frontend ; sudo rm /var/cache/apt/archives/lock ;
 
-cd /home/$USER/.local/share/
+cd /home/$USER/
 
 sudo apt update
 sudo apt-get update 
@@ -24,13 +24,13 @@ sudo pip3 install notify2
 sudo pip3 install playsound
 sudo pip3 install pyinstaller
 
-cd /home/$USER/.local/share/file-organizer/
+cd /home/$USER/file-organizer/
 
 pyinstaller --onefile --noconsole File_Organizer.py
 
 ##mv File_Organizer File_Organizer.desktop
 
-cd /home/$USER/.local/share/file-organizer/.exec/
+cd /home/$USER/file-organizer/.exec/
 
 cp File_Organizer.desktop /home/$USER/.config/autostart
 
