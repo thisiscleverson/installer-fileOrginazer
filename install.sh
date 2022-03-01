@@ -26,7 +26,7 @@ sudo pip3 install pyinstaller
 
 cd /home/$USER/.local/share/file-organizer/
 
-sudo python3 pyinstaller --onefile --noconsole File_Organizer.py
+pyinstaller --onefile --noconsole File_Organizer.py
 
 ##mv File_Organizer File_Organizer.desktop
 
