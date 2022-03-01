@@ -32,7 +32,7 @@ sudo python3 pyinstaller --onefile --noconsole File_Organizer.py
 
 cd /home/$USER/.local/share/file-organizer/.exec/
 
-cp File_Organizer.desktop /home/cleversom/.config/autostart
+cp File_Organizer.desktop /home/$USER/.config/autostart
 
 #cd /home/$USER/.local/share/file-organizer/build
 #sudo cp File_Organizer.service /etc/systemd/system/
