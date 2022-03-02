@@ -1,5 +1,8 @@
-<h1>File Orginazer</h1>
+<h1>instalador - File Organizer</h1>
 
-Execulte o programa para instalar as depedencias.
+para instalar execulte o instalador no terminal. 
 
-depois abra **Aplicativo de inicialização** e adicione o no caminho: */home/USER/.config/autostart/File_Organizer.desktop* e reinicie a sua maquina.
+```
+ ./install.sh
+```
+
